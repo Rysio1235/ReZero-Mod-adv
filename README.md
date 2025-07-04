@@ -2,7 +2,7 @@
 
 **Mod compatible with [Malverk](https://github.com/Eremel/Malverk), to find the original version of the mod check [here](https://github.com/Rysio1235/ReZero-Mod).**
 
-This mod changes balatro's original textures and sound to those from anime called [Re:Zero](https://rezero.fandom.com/wiki/Re:Zero_Wiki) or those that contain it (fanart).
+This mod changes balatro's original textures and sound to those from anime called [Re:Zero](https://rezero.fandom.com/wiki/Re:Zero_Wiki) or ones that contain it (fanart).
 
 This mod is still under development, if you have any suggestions or errors that need corection dont hasitate to reach out to me.
 
