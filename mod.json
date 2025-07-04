@@ -1,0 +1,13 @@
+{
+    "id": "ReZeroModAdv",
+    "name": "ReZero Mod adv",
+    "author": ["Rysio1235"],
+    "description": "ReZero Mod but compatible with Malverk. FOR CHANGES APPLIED IN CONFIG TAB TO WORK THE GAME NEEDS TO BE RESET.",
+    "prefix": "Rcma",
+    "main_file": "ReZeroModAdv.lua",
+    "badge_colour": "c7638f",
+    "dependencies": [
+        "Steamodded (>=1.0.0~ALPHA-1225a)"
+    ],
+    "version": "1.0.0"
+}
