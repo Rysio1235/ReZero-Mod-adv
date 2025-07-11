@@ -15,6 +15,7 @@ SMODS.calculate_individual_effect = function(effect, scored_card, key, amount, f
   return cie_ref(effect, scored_card, key, amount, from_edition)
 end
 
+
 SMODS.Atlas {
 	key = "jokers",
 	path = "RBD-crop.png",
@@ -149,7 +150,9 @@ SMODS.Joker {
         name = 'Return By Death',
         text = {
             "Gain {X:mult,C:white} X#1# {} Mult everytime",
-			"Mr. Bones is used",
+			"{C:attention}Mr. Bones{} is used.",
+			"Creates {C:attention}Mr. Bones{} when",
+			"{C:attention}Boss Blind{} is selected.",
 			"{C:inactive}(Currently {X:mult,C:white}X#2#{C:inactive} Mult)"
         }
     },
@@ -167,7 +170,9 @@ SMODS.Joker {
 			return { xmult = 1 + (G.GAME.deaths or 0) }
 		end
 		if context.setting_blind and context.blind.boss then
-			SMODS.add_card({key = "j_mr_bones"})
+			if #G.jokers.cards + G.GAME.joker_buffer < G.jokers.config.card_limit then 
+				SMODS.add_card({key = "j_mr_bones"})
+			end
         end
     end,
 }
