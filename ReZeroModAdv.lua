@@ -18,7 +18,7 @@ end
 
 SMODS.Atlas {
 	key = "jokers",
-	path = "RBD-crop.png",
+	path = "RBD-redo-x2.png",
 	px = 71,
 	py = 95
 }
@@ -50,6 +50,16 @@ AltTexture({
     name = 'ReZero Planet Texture',
   }
 })
+
+AltTexture({
+  key = 'decks_texture',
+  set = 'Back',
+  path = 'ReZero_Enhancers-Sins_v5.png',
+  loc_txt = {
+    name = 'ReZero Decks Texture',
+  }
+})
+
 
 AltTexture({
   key = 'spectral_texture',
@@ -105,6 +115,17 @@ TexturePack({
     text = {
 	'ReZero themed', 
 	'{C:planet}Planet{} cards'}
+  }
+})
+
+TexturePack({
+  key = 'ReZero Decks Textures', 
+  textures = {'Rcma_decks_texture'},
+  loc_txt = {
+    name = 'ReZero Decks Pack',
+    text = {
+	'ReZero themed', 
+	'Deck skins'}
   }
 })
 
