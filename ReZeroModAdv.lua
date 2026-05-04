@@ -51,15 +51,50 @@ AltTexture({
   }
 })
 
-AltTexture({
-  key = 'decks_texture',
-  set = 'Back',
-  path = 'ReZero_Enhancers-Sins_v5.png',
-  loc_txt = {
-    name = 'ReZero Decks Texture',
-  }
-})
+local renames = {
+    b_red       = "Deck of Humility",
+    b_blue      = "Deck of Temperence",
+    b_yellow    = "Deck of Charity",
+    b_green     = "Deck of Diligence",
+    b_black     = "Deck of Patience",
+    b_magic     = "Deck of Pride",
+    b_nebula    = "Deck of Gluttony",
+    b_ghost     = "Deck of Greed",
+    b_abandoned = "Deck of Sloth",
+    b_checkered = "Deck of Wrath",
+    b_zodiac    = "Deck of Chastity",
+    b_painted   = "Deck of Lust",
+    b_anaglyph  = "Deck of Kindness",
+    b_plasma    = "Deck of Envy",
+    b_erratic   = "Deck of Chaos",
+}
 
+-- Store originals so we can restore them
+AltTexture({
+    key = 'decks_texture',
+    set = 'Back',
+    path = 'ReZero_Enhancers-Sins_v5.png',
+    loc_txt = {
+        name = 'ReZero Decks Texture',
+    },
+    localization = {
+        b_red       = { name = "Deck of Humility" },
+        b_blue      = { name = "Deck of Temperence" },
+        b_yellow    = { name = "Deck of Charity" },
+        b_green     = { name = "Deck of Diligence" },
+        b_black     = { name = "Deck of Patience" },
+        b_magic     = { name = "Deck of Pride" },
+        b_nebula    = { name = "Deck of Gluttony" },
+        b_ghost     = { name = "Deck of Greed" },
+        b_abandoned = { name = "Deck of Sloth" },
+        b_checkered = { name = "Deck of Wrath" },
+        b_zodiac    = { name = "Deck of Chastity" },
+        b_painted   = { name = "Deck of Lust" },
+        b_anaglyph  = { name = "Deck of Kindness" },
+        b_plasma    = { name = "Deck of Envy" },
+        b_erratic   = { name = "Deck of Chaos" },
+    },
+})
 
 AltTexture({
   key = 'spectral_texture',
