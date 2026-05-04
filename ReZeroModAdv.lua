@@ -51,24 +51,6 @@ AltTexture({
   }
 })
 
-local renames = {
-    b_red       = "Deck of Humility",
-    b_blue      = "Deck of Temperence",
-    b_yellow    = "Deck of Charity",
-    b_green     = "Deck of Diligence",
-    b_black     = "Deck of Patience",
-    b_magic     = "Deck of Pride",
-    b_nebula    = "Deck of Gluttony",
-    b_ghost     = "Deck of Greed",
-    b_abandoned = "Deck of Sloth",
-    b_checkered = "Deck of Wrath",
-    b_zodiac    = "Deck of Chastity",
-    b_painted   = "Deck of Lust",
-    b_anaglyph  = "Deck of Kindness",
-    b_plasma    = "Deck of Envy",
-    b_erratic   = "Deck of Chaos",
-}
-
 -- Store originals so we can restore them
 AltTexture({
     key = 'decks_texture',
@@ -92,7 +74,7 @@ AltTexture({
         b_painted   = { name = "Deck of Lust" },
         b_anaglyph  = { name = "Deck of Kindness" },
         b_plasma    = { name = "Deck of Envy" },
-        b_erratic   = { name = "Deck of Chaos" },
+        b_erratic   = { name = "Deck of Allegory" },
     },
 })
 
